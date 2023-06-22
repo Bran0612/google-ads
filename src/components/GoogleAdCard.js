@@ -49,7 +49,7 @@ const ad = {
 const GoogleAdCard = () => {
     return (
         <div>
-            <h1>add card here</h1>
+            <h1>add card here test </h1>
         </div>
     )
 }
