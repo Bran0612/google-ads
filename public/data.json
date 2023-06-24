@@ -1,4 +1,4 @@
-const ad = {
+{
     "ad_id": "CR05673361664385220609",
     "ad_url": "https://adstransparency.google.com/advertiser/AR01861182914755035137/creative/CR05673361664385220609?political\u003d\u0026region\u003dEU",
     "ad_type": "IMAGE",
@@ -46,19 +46,3 @@ const ad = {
     "spend_range_min_brl": "0",
     "spend_range_max_brl": "500"
   }
-const GoogleAdCard = () => {
-    return (
-        <div className="card">
-        <h2 className="card-title">Ad ID: {ad.ad_id}</h2>
-      <p className="card-text">Ad URL: <a href={ad.ad_url}>{ad.ad_url}</a></p>
-      <p className="card-text">Ad Type: {ad.ad_type}</p>
-      <p className="card-text">Regions: {ad.regions}</p>
-      <p className="card-text">Advertiser ID: {ad.advertiser_id}</p>
-      <p className="card-text">Advertiser Name: {ad.advertiser_name}</p>
-      <p className="card-text">Date Range: {ad.date_range_start} - {ad.date_range_end}</p>
-      <p className="card-text">Impressions: {ad.impressions}</p>
-      </div>
-    )
-}
-
-export default GoogleAdCard;
