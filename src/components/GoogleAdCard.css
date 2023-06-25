@@ -1,17 +1,112 @@
-.card {
-    background-color: #f5f5f5;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
+body {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+  text-align: center;
+}
 
-  .card-title {
-    font-size: 18px;
-    margin-bottom: 8px;
-  }
-   
-  .card-text {
-    margin-bottom: 4px;
-  }
+.card {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  flex-shrink: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  justify-content: space-between;
+  border: 1px solid #dfe1e5;
+  width: 265px;
+  height: 375px;
+}
+
+.iframe-container {
+  width: fit-content;
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+iframe {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: "100%";
+  height: "100%";
+  border: "none";
+  overflow: "hidden"; /* tried this to remove the scrollbar but it didnt work*/
+  height: 234px;
+}
+
+.details-container {
+  border-top: 1px solid #dfe1e5;
+  white-space: nowrap;
+}
+
+.advertiser-name {
+  color: #202124;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px 16px 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.impressions {
+  display: flex;
+  color: #555;
+  margin-bottom: 5px;
+  align-items: center;
+  letter-spacing: 0.0142857143em;
+  font-weight: 400;
+  color: #3c4043;
+  color: #5f6368;
+  font-size: 12px;
+  line-height: 0px;
+  padding: 0 16px 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0px;
+}
+.impressions-numbers {
+  font-weight: bold;
+  margin: 6px;
+}
+
+.date-range {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  color: #555;
+
+  letter-spacing: 0.0142857143em;
+  font-weight: 400;
+  color: #3c4043;
+  color: #5f6368;
+  font-size: 12px;
+  line-height: 0px;
+  padding: 0 16px 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0px;
+}
+.date-numbers {
+  font-weight: bold;
+  margin: 6px;
+}
+.spend-range {
+  display: flex;
+  align-items: center;
+  color: #555;
+
+  letter-spacing: 0.0142857143em;
+  font-weight: 400;
+  color: #3c4043;
+  color: #5f6368;
+  font-size: 12px;
+  line-height: 0px;
+  padding: 0 16px 12px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 0px;
+}
+.spend-numbers {
+  font-weight: bold;
+  margin: 6px;
+}
