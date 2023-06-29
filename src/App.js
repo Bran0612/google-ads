@@ -1,8 +1,8 @@
-import GoogleAdCard from "./components/GoogleAdCard"
+import GoogleAdCardList  from "./components/GoogleAdCardList";
 function App() {
   return (
     <div>
-      <GoogleAdCard />
+      <GoogleAdCardList/>
     </div>
   );
 }
