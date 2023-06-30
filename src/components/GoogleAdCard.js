@@ -20,7 +20,7 @@ const GoogleAdCard = (props) => {
     <div className="cards-container">
     <div className="card">
       <div className="iframe-container">
-        <iframe src={props.image} scrolling="no" />
+        <iframe src={props.image} scrolling="n" />
       </div>
       <div className="details-container">
         <div className="advertiser-name">{props.name}</div>
